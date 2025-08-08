@@ -1,6 +1,6 @@
 import React from 'react';
 import TopNav from './TopNav.jsx';
-
+import ScenaryImage from './assets/scenary.jpeg';
 
 const HomePage = ({ onMakePostcard, onHomeClick, onInfoClick }) => {
   const handleMakePostcard = () => {
@@ -23,7 +23,7 @@ const HomePage = ({ onMakePostcard, onHomeClick, onInfoClick }) => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-pulse"
         style={{
-          backgroundImage: `url('/src/assets/scenary.jpeg')`,
+          backgroundImage: `url(${ScenaryImage})`,
           filter: 'blur(4px)',
           transform: 'scale(1.1)',
           animationDuration: '8s'
