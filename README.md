@@ -1,12 +1,54 @@
-# React + Vite
+# 💌 PostcardStudio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and simple web app for creating beautiful digital postcards.
 
-Currently, two official plugins are available:
+[**✨ Live Demo**](https://salomeshioshvili.github.io/postcard-studio) • [**📦 Source**](https://github.com/salomeshioshvili/postcard-studio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 **Custom postcards** – Create unique designs and messages
+- 🧊 **Glassmorphism UI** – Modern, soft, translucent style
+- ☁️ **Animated clouds** – Layered motion in the background
+- 🔤 **Creative fonts** – Mixed typography for a fun look
+
+---
+
+## Why I built this
+
+Wanted to create something that makes sending thoughtful messages more fun and visually appealing.
+
+---
+
+## Built with
+
+**React** + **Vite** + **Tailwind CSS**
+
+---
+
+## Run locally
+
+```bash
+git clone https://github.com/salomeshioshvili/postcard-studio.git
+cd postcard-studio
+npm install
+npm run dev
+```
+
+Visit `localhost:5173` to see it in action.
+
+---
+
+## Deploy
+
+```bash
+npm run build  
+npm run deploy
+```
+
+*Add `base: '/postcard-studio/'` to `vite.config.js` for GitHub Pages*
+
+---
+
+**Built by Salome Shioshvili**
